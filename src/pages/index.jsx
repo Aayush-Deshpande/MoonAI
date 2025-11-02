@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-const VioraRefined = dynamic(() => import("@/components/VioraRefined"), {
+const VioraRefined = dynamic(() => import("../components/VioraRefined"), {
   ssr: false,
 });
 
